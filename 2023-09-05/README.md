@@ -1,4 +1,4 @@
-<center><h1>Algoritmos de Ordenação</h1></center>
+<p align="center"><h2>Algoritmos de Ordenação</h2></p>
 
 <hr/>
 
