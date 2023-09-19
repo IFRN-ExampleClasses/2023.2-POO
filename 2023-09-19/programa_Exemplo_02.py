@@ -24,6 +24,8 @@ if __name__ == "__main__":
     alunos.append(Aluno(cpfPessoa_2, '20232014050002', '01405', 'SGA', pessoa_2))
     alunos.append(Aluno(cpfPessoa_1, '20232015000002', '01500', 'PAR', pessoa_1))
 
+    print(alunos,'\n')
+
     for aluno in alunos:
         print('Dados do Aluno:')
         print(f'{aluno.dados}\n')
