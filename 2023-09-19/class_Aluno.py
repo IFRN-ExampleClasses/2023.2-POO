@@ -18,9 +18,9 @@ class Aluno:
     # --------------------------------------------------------------------------------
     def __init__(self, cpf: str, matricula: str, codcurso: str, campus: str, pessoa: Pessoa):
         self.__matricula = matricula
-        self.__codcurso = codcurso
-        self.__campus = campus
-        self.__pessoa = pessoa
+        self.__codcurso  = codcurso
+        self.__campus    = campus
+        self.__pessoa    = pessoa
 
         self.__pessoa.dados[cpf][self.__matricula] = {
             'matriculaAluno': self.__matricula,

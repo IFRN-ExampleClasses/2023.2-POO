@@ -15,8 +15,8 @@ class Pessoa:
 
     # --------------------------------------------------------------------------------
     def __init__(self, cpf: str, nome: str, email: str):
-        self.__cpf = cpf
-        self.__nome = nome
+        self.__cpf   = cpf
+        self.__nome  = nome
         self.__email = email
         self.__dados = {cpf: {'CPF': self.__cpf , 'nomePessoa': self.__nome, 'emailPessoa': self.__email}}
 
